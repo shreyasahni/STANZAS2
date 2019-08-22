@@ -14,6 +14,7 @@ body
 header
 {
 	font-family: sansa;
+	color: #e8362a;
 }
 
 nav
@@ -24,6 +25,7 @@ nav
 	padding: 8px;
 	word-spacing: 35px;
 	font-size: 25px;
+	margin-bottom: 30px;
 }
 
 nav a
