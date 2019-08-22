@@ -1,0 +1,52 @@
+@font-face
+{
+	font-family: sansa;
+	src:url(SansationLight.woff);						/*font*/
+}
+
+body
+{
+	background: url(poetic1.png) no-repeat;             /*image*/
+	background-size: cover;
+}
+
+
+header
+{
+	font-family: sansa;
+}
+
+nav
+{
+	font-family: sansa;
+	text-align: center;
+	font-weight: bold;
+	padding: 8px;
+	word-spacing: 35px;
+	font-size: 25px;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: grey;
+}
+
+nav a:hover
+{
+	background-color: grey;
+	color: white;
+	border-radius: 8px;
+}
+
+main
+{
+	font-family: sansa;
+	font-size: 20px;
+}
+
+aside
+{
+	font-size: 20px;
+	float: right;
+}
