@@ -17,7 +17,21 @@ header
 	color: #e8362a;
 }
 
-nav
+.login 												/*login and signup button*/
+{
+	margin-top: 80px;
+}
+
+			/*inside login*/
+			.forms
+			{
+				font-size: 17px;
+			}
+			input
+			{
+				size: 50%;
+			}
+nav													/*Navigation*/
 {
 	font-family: sansa;
 	text-align: center;
@@ -41,14 +55,28 @@ nav a:hover
 	border-radius: 8px;
 }
 
-main
+main 											/*main part of web page*/
 {
 	font-family: sansa;
 	font-size: 20px;
+	margin-left: 30px;
 }
 
-aside
+ol a: nth-of-type(even) 					/*advanced selector*/
 {
-	font-size: 20px;
-	float: right;
+	text-decoration: none;
+	color: #35dbde;
+}
+
+ol a: nth-of-type(odd)
+{
+	text-decoration: none;
+	color: #32db3b;
+}
+
+.sidebar                            			 /* sidebar styling*/
+{
+	font-size: 17px;
+	font-weight: 100;
+	margin-top: 50px;
 }
