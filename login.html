@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>STANZAS LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="stanzas2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>The Login Page</h1>
+      </header>
+      <form>
+          <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd">
+          </div>
+
+          <div class="radio">
+            <label><input type="radio" name="optradio" checked>Editor account</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">User account</label>
+          </div>
+          <div class="radio disabled">
+            <label><input type="radio" name="optradio" disabled>Developer account</label>
+          </div> 
+          <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+  </body>
+</html> 

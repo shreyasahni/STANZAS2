@@ -62,16 +62,14 @@ main 											/*main part of web page*/
 	margin-left: 30px;
 }
 
-ol a: nth-of-type(even) 					/*advanced selector*/
+li: nth-of-type(even) 					/*advanced selector*/
 {
-	text-decoration: none;
-	color: #35dbde;
+	background: #e6b120;
 }
 
-ol a: nth-of-type(odd)
+li: nth-of-type(odd)
 {
-	text-decoration: none;
-	color: #32db3b;
+	background: #e0da1d;
 }
 
 .sidebar                            			 /* sidebar styling*/
@@ -79,4 +77,5 @@ ol a: nth-of-type(odd)
 	font-size: 17px;
 	font-weight: 100;
 	margin-top: 50px;
+	font-family: sansa;
 }
